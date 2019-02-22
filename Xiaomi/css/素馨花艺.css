@@ -1,0 +1,242 @@
+html, body, h1, h2, h3, h4, h5, h6, p, pre, ol, ul, li, form, input, textarea {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font: 16px/1.5 'Microsoft YaHei UI';
+    color: #333333;
+}
+
+a {
+    text-decoration: none;
+    color: #333333;
+}
+
+/*导航*/
+.nav {
+    width: 100%;
+    height: 79px;
+    background: rgba(0, 0, 0, 0.15);
+    position:fixed;
+    top:0;
+    left:0;
+}
+
+.navContent {
+    width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 150px;
+    height: 50px;
+    float: left;
+    margin-top: 14px;
+}
+/*行内元素*/
+.logo a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.logo a img{
+    width: 100%;
+    height: 100%;
+}
+
+.navList {
+    /*background: red;*/
+    width: 602px;
+    height: 100%;
+    float: right;
+}
+.navList li{
+    float: left;
+    width: 86px;
+    height: 100%;
+}
+.navList li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 79px;
+    font-size: 14px;
+    transition:color linear .5s;  /*过渡时间*/
+}
+/*鼠标移入*/
+.navList li a:hover{
+    color: #16b0bc;
+}
+#navv{
+    width: 100%;
+    height: 80px;
+    background: #f0f0f0;
+}
+
+
+.picture{
+    width: 100%;
+    height: 800px;
+    background: red;
+}
+
+.picture img:hover{
+    transform: scale(1.05);
+    transition-timing-function: ease-out;
+    transition-duration: 1s;
+}
+#picture1{
+     width: 100%;
+     height: 400px;
+     background: #cccccc;
+     position: relative;
+ }
+#picture11{
+    width: 50%;
+    height: 400px;
+    background: #cc0a35;
+    float: left;
+    overflow: hidden;
+}
+#picture11 img{
+    width: 100%;
+    height: 400px;
+
+}
+#picture12{
+    width: 50%;
+    height: 400px;
+    background: #5638cc;
+    float: right;overflow: hidden;
+    position: relative;
+}
+.box{
+    width: 140px;
+    height: 140px;
+    background: rgba(0, 0, 0, 0.16);
+    position: absolute;
+    top:130px;
+    left: 20%;
+}
+.box1{
+    width: 140px;
+    height: 140px;
+    /*background: black;*/
+    position: absolute;
+    top:130px;
+    left:40%;
+}
+.box3{
+    width: 140px;
+    height: 140px;
+    /*background: black;*/
+    position: absolute;
+    top:130px;
+    left: 40%;
+}
+.look{
+    width: 40px;
+    height: 25px;
+    margin:8px auto 0;
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+}
+.look:hover{
+    background: rgb(234, 234, 234);
+}
+.look p:hover{
+    color: #76838f;
+}
+#picture12 img{
+    width: 100%;
+    height: 400px;
+}
+
+
+#picture2{
+    width: 100%;
+    height: 400px;
+    background: #cccccc;
+}
+#picture13{
+    width: 50%;
+    height: 400px;
+    background: #cc0a35;
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+
+#picture13 img,#picture14 img{
+    width: 100%;
+    height: 400px;
+}
+#picture14{
+    width: 50%;
+    height: 400px;
+    background: #5638cc;
+    float: right;
+    overflow: hidden;
+    position: relative;
+}
+
+
+
+
+
+
+
+.foot {
+    background-color: white;
+    margin-top: 70px;
+    padding-top: 20px;
+    height: 180px;
+    line-height: 1.8;
+    border-top: 1px solid #f0f2f5;
+}
+
+.foot .kuang {
+    background-color: #f5f5f5;
+    border-top: 1px solid #f0f2f5;
+    height: 100%;
+}
+
+.kuang .social {
+    width: 100%;
+    height: 45px;
+    text-align: center;
+    margin-top: 10px;
+    /*background: red;*/
+}
+
+.social img {
+    width: 35px;
+    height: 35px;
+    margin-right: 15px;
+}
+
+.txt {
+    font-size: 14px;
+    text-align: center;
+}
+
+.txt p {
+    color: #aaaaaa;
+    line-height: 2;
+}
+
+.txt .blue a {
+    /*background: red;*/
+    color: #62a8ea;
+    margin-right: 5px;
+    line-height: 2;
+}
+
+.txt .blue a:hover {
+    text-decoration: underline;
+}
+

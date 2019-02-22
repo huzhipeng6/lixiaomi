@@ -1,0 +1,165 @@
+html, body, h1, h2, h3, h4, h5, h6, p, pre, ol, ul, li, form, input, textarea {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font: 16px/1.5 'Microsoft YaHei UI';
+    color: #333333;
+}
+
+a {
+    text-decoration: none;
+    color: #333333;
+}
+.nav {
+    width: 100%;
+    height: 79px;
+    background: rgba(0, 0, 0, 0.15);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.navContent {
+    width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 150px;
+    height: 50px;
+    float: left;
+    margin-top: 14px;
+}
+/*行内元素*/
+.logo a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.logo a img{
+    width: 100%;
+    height: 100%;
+}
+
+.navList {
+    /*background: red;*/
+    width: 602px;
+    height: 100%;
+    float: right;
+}
+.navList li{
+    float: left;
+    width: 86px;
+    height: 100%;
+}
+.navList li a{
+    color:white;
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 79px;
+    font-size: 14px;
+    transition:color linear .5s;  /*过渡时间*/
+}
+/*鼠标移入*/
+.navList li a:hover{
+    color: #16b0bc;
+}
+
+.banner .huniu {
+    width: 100%;
+    height: 360px;
+    background: #cccccc;
+}
+.banner .huniu img{
+    width: 100%;
+    height: 360px;
+}
+.workhouse{
+    width: 100%;
+    height: 939px;
+    background: #ffffff;
+}
+
+.container{
+    width: 1170px;
+    height: 540px;
+    margin: 0 auto;
+}
+.container .title {
+    height: 110px;
+    font-family: "Microsoft YaHei UI";
+    font-size: 36px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 160px;
+}
+.container .message{
+    width: 80%;
+    height: 80%;
+    padding: 10px 10% 15px;
+    font-size: 16px;
+    font-family: "Microsoft YaHei UI";
+    text-align: center;
+    line-height: 40px;
+}
+.map{
+    width: 530px;
+    height: 340px;
+    margin: auto;
+
+}
+.foot {
+    background-color: white;
+    margin-top: 70px;
+    padding-top: 20px;
+    height: 180px;
+    line-height: 1.8;
+    border-top: 1px solid #f0f2f5;
+}
+
+.foot .kuang {
+    background-color: #f5f5f5;
+    border-top: 1px solid #f0f2f5;
+    height: 100%;
+}
+
+.kuang .social {
+    width: 100%;
+    height: 45px;
+    text-align: center;
+    margin-top: 10px;
+    /*background: red;*/
+}
+
+.social img {
+    width: 35px;
+    height: 35px;
+    margin-right: 15px;
+    transition:color linear .5s;
+}
+.txt {
+    font-size: 14px;
+    text-align: center;
+}
+
+.txt p {
+    color: #aaaaaa;
+    line-height: 2;
+}
+
+.txt .blue a {
+    /*background: red;*/
+    color: #62a8ea;
+    margin-right: 5px;
+    line-height: 2;
+}
+
+.txt .blue a:hover {
+    text-decoration: underline;
+}

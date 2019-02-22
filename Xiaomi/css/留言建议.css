@@ -1,0 +1,334 @@
+html, body, h1, h2, h3, h4, h5, h6, p, pre, ol, ul, li, form, input, textarea {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body {
+    font: 16px/1.5 'Microsoft YaHei UI';
+    color: #333333;
+}
+a {
+    text-decoration: none;
+    color: #333333;
+}
+.nav {
+    width: 100%;
+    height: 79px;
+    background: rgba(255, 248, 217, 0);
+    position:fixed;
+    top:0;
+    left:0;
+    background: white;
+}
+.navContent {
+    width: 1170px;
+    height: 100%;
+    margin: 0 auto;
+}
+.logo {
+    width: 150px;
+    height: 50px;
+    float: left;
+    margin-top: 14px;
+}
+/*行内元素*/
+.logo a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.logo a img{
+    width: 100%;
+    height: 100%;
+}
+.navList {
+    /*background: red;*/
+    width: 602px;
+    height: 100%;
+    float: right;
+}
+.navList li{
+    float: left;
+    width: 86px;
+    height: 100%;
+}
+.navList li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 79px;
+    font-size: 14px;
+    transition:color linear .5s;  /*过渡时间*/
+}
+/*鼠标移入*/
+.navList li a:hover{
+    color: #16b0bc;
+}
+#navv{
+    width: 100%;
+    height: 90px;
+    background: #f0f0f0;
+}
+
+/*留言建议*/
+#liuyan{
+    width: 100%;
+    height: 100px;
+    background: #f0f0f0;
+    /*position: relative;*/
+}
+#liuyan #liuyan1{
+    width: 200px;
+    height:100px ;
+    margin: auto;
+    /*background: #2113ff;*/
+}
+#liuyan1 p{
+    font-size:40px;
+    color: #ff938e;
+    text-align: center;
+    /*margin-top: 10px;*/
+}
+
+/*留言板*/
+#middle{
+    width: 100%;
+    height: 750px;
+    background: #f4f4f4;
+}
+.middleleft{
+    height: 750px;
+    width: 1200px;
+    /*background: #160c58;*/
+    margin: auto;
+}
+.leftl{
+    float: left;
+    width: 800px;
+    height: 730px;
+    background: white;
+}
+#border1,#border2,#border3{
+    width:720px ;
+    height: 100px;
+    /*background: red;*/
+    margin-top: 10px;
+    margin-left:40px;
+    border-bottom: 1px solid #cee6f5;
+    position: relative;
+}
+#bo1,#bo2,#bo3{
+    height: 50px;
+    width: 50px;
+    /*background: #2f19ff;*/
+    position: absolute;
+    top:25px;
+}
+#bo1 img,#bo2 img,#bo3 img{
+    height: 50px;
+    width: 50px;
+}
+#bt1,#bt2,#bt3{
+    width: 120px;
+    height: 60px;
+    /*background: #76838f;*/
+    position: absolute;
+    top:25px;
+    left:50px;
+}
+#bt1,#bt2,#bt3 p{
+    font-size: 15px;
+}
+#bs1,#bs2,#bs3{
+    width:150px;
+    height: 40px;
+    /*background: #ff6700;*/
+    position: absolute;
+    top:15px;
+    left: 570px;
+}
+#bs1,#bs2,#bs3 p{
+    font-size:13px;
+    line-height: 40px;
+}
+
+
+
+
+#border4,#border5,#border6{
+    width:720px ;
+    height: 110px;
+    /*background: red;*/
+    margin-top: 10px;
+    margin-left:40px;
+    border-bottom: 1px solid #cee6f5;
+    position: relative;
+}
+#bo4,#bo5,#bo6{
+   height: 50px;
+    width: 50px;
+    /*background: #2f19ff;*/
+    /*position: absolute;*/
+    /*top:35px;*/
+}
+#bo4 img,#bo5 img,#bo6 img{
+    height: 50px;
+    width: 50px;
+}
+#bt4,#bt5,#bt6{
+    width: 120px;
+    height: 60px;
+    /*background: #76838f;*/
+    position: absolute;
+    top:0px;
+    left:50px;
+}
+#bt4,#bt5,#bt6 p{
+    font-size: 15px;
+}
+#bs4,#bs5,#bs6{
+    width:150px;
+    height: 40px;
+    /*background: #ff6700;*/
+    position: absolute;
+    top:0;
+    left: 570px;
+}
+#bs4,#bs5,#bs6 p{
+    font-size:13px;
+    line-height: 40px;
+}
+#bd4,#bd5,#bd6{
+    width: 670px;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.02);
+    margin-left: 50px;
+    border: 1px solid rgba(118, 131, 143, 0.16);
+
+}
+#bd4 p,#bd5 p,#bd6 p{
+    font-size: 15px;
+    line-height: 50px;
+    margin-left: 20px;
+}
+
+
+
+.leftr{
+    float: right;
+    width: 300px;
+    height:450px;
+    background: white;
+    padding: 30px;
+}
+#left1,#left2,#left3{
+    width: 300px;
+    height: 40px;
+    background: white;
+    border-radius:5px ;
+    border: 1px solid #cccccc;
+}
+#left1 input,#left2 input,#left3 input{
+    width:280px;
+    height:30px;
+    margin-top: 5px;
+    margin-left: 9px;
+    border: none;
+}
+#left4{
+    width: 300px;
+    height: 100px;
+    background: white;
+    border-radius:5px ;
+    border: 1px solid #cccccc;
+}
+#left4 input{
+    width: 280px;
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 9px;
+    border: none;
+}
+#left5{
+    width: 300px;
+    height: 40px;
+    background: #2113ff;
+    border-radius:5px ;
+    border: 1px solid #2113ff;
+}
+#left5 p{
+    line-height: 40px;
+    text-align: center;
+    color: white;
+}
+#left6{
+    width: 300px;
+    height: 40px;
+    background: white;
+    border-radius:5px ;
+    border: 1px solid #cccccc;
+}
+#left6 input{
+    width: 100px;
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 9px;
+    border: none;
+    float: left;
+}
+#yanzheng{
+    height: 40px;
+    width: 150px;
+    background: #16b0bc;
+    float: right;
+}
+#yanzheng img{
+    height: 40px;
+    width: 150px;
+}
+
+/*底部*/
+.foot {
+    background-color: white;
+    /*margin-top: 20px;*/
+    padding-top: 20px;
+    height: 180px;
+    line-height: 1.8;
+    border-top: 1px solid #f0f2f5;
+}
+.foot .kuang {
+    background-color: #f5f5f5;
+    border-top: 1px solid #f0f2f5;
+    height: 100%;
+}
+.kuang .social {
+    width: 100%;
+    height: 45px;
+    text-align: center;
+    margin-top: 10px;
+    /*background: red;*/
+}
+.social img {
+    width: 35px;
+    height: 35px;
+    margin-right: 15px;
+}
+.txt {
+    font-size: 14px;
+    text-align: center;
+}
+.txt p {
+    color: #aaaaaa;
+    line-height: 2;
+}
+.txt .blue a {
+    /*background: red;*/
+    color: #62a8ea;
+    margin-right: 5px;
+    line-height: 2;
+}
+.txt .blue a:hover {
+    text-decoration: underline;
+}
+
